@@ -1,0 +1,55 @@
+.fixer {
+    text-decoration-color: blueviolet;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffffd2; /* Dark gray text color */
+}
+
+.links {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-style: italic;
+    color: #85063ae3; /* Light red text color */
+    font-size: large;
+}
+
+body {
+    background-color: #212121; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+    margin: 0; /* Remove default body margin */
+}
+
+.button {
+    border-color: #d2691e; /* Chocolate border color */
+    background-color: #6495ed; /* Cornflower blue background color */
+    color: #f0f0f0; /* Light text color */
+    padding: 10px 20px; /* Add padding for buttons */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.alignment,
+.random {
+    text-align: center;
+    margin: 10px 0; /* Add margin for spacing */
+    display:flex;/*add a flex container*/
+    flex-direction:column;/*align them vertically*/
+    align-items:center;/*align the items vertically central along the flex container*/
+}
+
+.alignment label, .alignment input {
+    margin: 5px 0;
+}
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #4169e1; /* Darker Cornflower blue on hover */
+    color: #fff; /* White text color on hover */
+}
+
+/*#background {
+    background-image: url("https://th.bing.com/th/id/R.fa1d723a662071b46a8d3436838726ae?rik=Hg9towawCvIarQ&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f9%2f1%2f1373880-widescreen-cool-text-backgrounds-1920x1200.jpg&ehk=LOXba7BaJ0yO5URVCI8O0G7B0PIWI1A8%2fK5oKt1lePI%3d&risl=&pid=ImgRaw&r=0");
+    /*background-size: cover;*/
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+/*}*/
